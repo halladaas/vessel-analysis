@@ -26,9 +26,10 @@ This project is part of a Quant Analyst internship assessment. It involves analy
    - Identified cargo loaded in Southeast Asia (Aug 20–24, 2024)
    - Identified the top 2 exports from each country
    - Highlighted top regional operators
-   - Analyzed vessel loading via AIS vs design draft
-   - Analyzed destination countries
-
+   - Highlighted the relationship between AIS draft and design draft
+   - Analyzed the distribution of draft ratios (extra)
+   - Analyzed vessel loading status via ais_draft/draft ratios
+   - Analyzed destination countries (extra)
 ---
 
 ## Tools & Libraries Used
