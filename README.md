@@ -6,12 +6,12 @@ This project is part of a Quant Analyst internship assessment. It involves analy
 
 ## Repository Structure
 
-├── profision-vessel-analysis.ipynb # Main Jupyter Notebook with analysis, plots, and commentary
 ├── requirements.txt # Python dependencies used (generated via pip freeze)
 ├── data/ # Folder to store input CSV files
 │ ├── vessel_positions.csv
 │ └── vessel_characteristics.csv
-
+├── notebook/ # Folder to store main Jupyter Notebook with analysis, plots, and commentary
+│ ├── profision-vessel-analysis.ipynb 
 
 ---
 
@@ -48,8 +48,17 @@ This project is part of a Quant Analyst internship assessment. It involves analy
 ```bash
 git clone https://github.com/halladaas/vessel-analysis.git
 cd vessel-analysis
+```
+2. **Create and Activate Virtual Environment**
+```bash
 uv venv
 source .venv/bin/activate
+```
+3. **Install Dependencies**
+```bash
 pip install -r requirements.txt
+```
+4. **Launch Notebook**
+```bash
 jupyter notebook
 ```
