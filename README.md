@@ -5,14 +5,14 @@ This project is part of a Quant Analyst internship assessment. It involves analy
 ---
 
 ## Repository Structure
-
+```markdown
 ├── requirements.txt # Python dependencies used (generated via pip freeze)
 ├── data/ # Folder to store input CSV files
 │ ├── vessel_positions.csv
 │ └── vessel_characteristics.csv
 ├── notebook/ # Folder to store main Jupyter Notebook with analysis, plots, and commentary
 │ ├── profision-vessel-analysis.ipynb 
-
+```
 ---
 
 ## Objectives Covered
